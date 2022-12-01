@@ -17,7 +17,6 @@ code {
 main {
 	margin: 0 auto;
 	max-width: 90%;
-  padding: 50px 30px;
 }
 :root {
   --primary: #dc2626;
@@ -141,9 +140,10 @@ button[disabled] {
 }
 
 img {
-  width: 360px;
-  height:300px;
+  width: 450px;
+  height: 550px;
   margin: 0 0 0 30%;
+  padding: 90px 90px 90px 90px;
 }
 
 span[role="img"] {
@@ -327,5 +327,6 @@ section {
   width: 100%;
   display: flex;
   justify-content:space-around;
+  margin-top: 80px;
 }
 
