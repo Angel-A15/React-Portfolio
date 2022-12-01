@@ -7,7 +7,7 @@ The technologies used:
   * React
   * Node.js
   * Bootstrap
-  * 
+ 
 ## Preview of Page
 
 ## Deployed URL
