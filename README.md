@@ -9,3 +9,4 @@ The technologies used:
   * Bootstrap
 
 ## Deployed URL
+https://angel-a15.github.io/React-Portfolio
