@@ -1,18 +1,16 @@
 import React, { useState } from 'react';
-// import logo from './logo.svg';
 import './App.css';
 import Footer from './components/Footer';
 import Nav from './components/Nav';
+import About from './components/About Me';
 
 function App() {
   const [categories] = useState([
     {
-      name: 'commercial',
-      description: 'Photos of grocery stores, food trucks, and other commercial projects',
+      name: 'Projects',
+      description: 'Photos of constructed applications and link to deployed application',
     },
-    { name: 'portraits', description: 'Portraits of people in my life' },
-    { name: 'food', description: 'Delicious delicacies' },
-    { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
+    { name: 'Resume', description: 'a link to a downloadable resume and a list of the developers proficiencies' },
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -31,7 +29,7 @@ function App() {
       <main>
         
       </main>
-      {/* <About /> */}
+      <About></About>
       <Footer></Footer>
     </div>
 
