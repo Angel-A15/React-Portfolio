@@ -1,8 +1,21 @@
 import React from 'react';
+import Navigation from "../Navigation";
 
-function Header() {
+function Header(props) {
+    const { currentTab, setCurrentTab } = props;
+
     return (
-
+        <header>
+            <div className="name">
+                <h2>Angel Aguilar</h2>
+            </div>
+            <div>
+                <Navigation
+                    currentTab={currentTab}
+                    setCurrentTab={setCurrentTab}
+                ></Navigation>
+            </div>
+        </header>
     );
 }
 
