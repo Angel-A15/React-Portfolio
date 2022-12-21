@@ -1,20 +1,20 @@
 import React from 'react';
-import Navigation from "../Navigation";
+// import Navigation from "../Navigation";
 
 function Header(props) {
-    const { currentTab, setCurrentTab } = props;
+    // const { currentTab, setCurrentTab } = props;
 
     return (
         <header>
             <div className="name">
                 <h2>Angel Aguilar</h2>
             </div>
-            <div>
+            {/* <div>
                 <Navigation
                     currentTab={currentTab}
                     setCurrentTab={setCurrentTab}
                 ></Navigation>
-            </div>
+            </div> */}
         </header>
     );
 }

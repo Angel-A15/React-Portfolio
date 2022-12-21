@@ -4,53 +4,64 @@ import Portfolio from "./components/Portfolio";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
-import Resume from "./components/Resume";
+// import Resume from "./components/Resume";
+// import Navigation from "./components/Navigation";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // root component (wraps other components)
 function App() {
-  const [page, setPage] = useState("About me");
 
-  const [categories] = useState([
-    { name: "About" },
-    { name: "Portfolio" },
-    {
-      name: "Contact",
-    },
-    {
-      name: "Resume",
-    },
-  ]);
+  // const [categories] = useState([
+  //   { name: "About" },
+  //   { name: "Portfolio" },
+  //   {
+  //     name: "Contact",
+  //   },
+  //   {
+  //     name: "Resume",
+  //   },
+  // ]);
 
-  const currentPage = () => {
-    switch (page) {
-      case "Portfolio":
-        return <Portfolio />;
-      case "Contact":
-        return <Contact />;
-      case "Resume":
-        return <Resume />;
-      default:
-        return <About />;
-    }
-  };
+  // const [currentCategory, setCurrentCategory] = useState(categories[0]);
+
+  // const [contactSelected, setContactSelected] = useState(false);
 
 
   return (
     <div>
-      <Header 
-        categories={categories}
-        page={page}
-        setPage={setPage}
-      ></Header>
-      <main>
-        <div>{currentPage(page)}</div>
-      </main>
-      <Footer />
+      <Header>
+
+        {/* <Navigation
+          ategories={categories}
+          setCurrentCategory={setCurrentCategory}
+          currentCategory={currentCategory}
+          contactSelected={contactSelected}
+          setContactSelected={setContactSelected}
+        ></Navigation> */}
+
+      </Header>
+      <Portfolio />
+      <About></About>
+      <Footer>
+        
+        <Contact></Contact>
+
+      </Footer>
     </div>
   );
 }
 
 export default App;
+
+
+        // {/* {!contactSelected ? (
+        //   <>
+        //     <Portfolio currentCategory={currentCategory}></Portfolio>
+        //     <About></About>
+
+        //   </>
+        // ) : (
+          
+        // )} */}
