@@ -111,6 +111,11 @@ a:hover {
 
 header {
   background: var(--dark);
+  padding: 25px;
+}
+
+footer {
+  background: var(--dark);
 }
 
 header a {
@@ -323,13 +328,10 @@ a {
   color: var(--secondary);
 }
 
-header {
-  background-color:#8c520a;
-}
+
 
 section {
-  background-color: #8c520a;
-  position: absolute;
+  background: var(--dark);
   width: 100%;
   display: flex;
   justify-content:space-around;
