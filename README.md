@@ -7,6 +7,10 @@ The technologies used:
   * React
   * Node.js
   * Bootstrap
+  
+ ## Preview of Application
+ ![portfolio](https://user-images.githubusercontent.com/106582411/209045019-7dc6b13d-279b-4c20-9097-27e33b45087a.jpeg)
+
 
 ## Deployed URL
 https://angel-a15.github.io/React-Portfolio
