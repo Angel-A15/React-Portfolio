@@ -1,5 +1,6 @@
 {
   "homepage": "https://github.com/Angel-A15/React-Portfolio",
+  
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -43,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "build": "^0.1.4",
     "gh-pages": "^4.0.0"
   }
 }
