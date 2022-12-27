@@ -73,12 +73,19 @@ h1 {
 
 
 h2 {
-  font-size: 2rem;
+  color: #5f96e7;
+  font-family: initial;
+}
+
+.name {
+  font-size: 300px;
 }
 
 h3 {
   font-size: 1.75rem;
   padding: 20px 60px ;
+  margin: 20px 110px;
+  border-radius: 8px;
 }
 
 h4 {
@@ -99,23 +106,16 @@ p {
   margin-bottom: 10px;
 }
 
-a {
-  color: var(--tertiary);
-  text-decoration: none;
-  font-weight: bold;
-}
 
-a:hover {
-  text-decoration: underline;
-}
+
 
 header {
-  background: var(--dark);
+  background: #f7c16f94;
   padding: 25px;
 }
 
 footer {
-  background: var(--dark);
+  background: #f7c16f94;
 }
 
 header a {
@@ -153,8 +153,7 @@ img {
 
 .photo {
   height: 500px;
-  margin-left: 35%;
-
+  border: 2px solid tan;
 }
 
 span[role="img"] {
@@ -264,11 +263,16 @@ textarea {
   padding-bottom: var(--spacing-two);
 }
 
-.card {
-  width: 25%;
-  text-align: center;
-}
 
+
+.header{
+  color: #5f96e7;
+  background-color: #ffc16494;
+  border-bottom:1px solid #111111;
+  margin-bottom: 0px;
+  padding: 0.5rem 1rem;
+  margin-left: 0px;
+}
 .img-thumbnail {
   width: auto;
   height: 300px;
@@ -321,8 +325,8 @@ a {
 	padding: 2px 4px;
 	margin-left: -2px;
 	margin-right: -2px;
-	
 }
+
 
 .navActive {
   color: var(--secondary);
@@ -341,4 +345,29 @@ section {
 
 #logo {
   margin: 5px;
+}
+
+#links p a:hover {
+  text-decoration:none;
+  
+}
+
+#links p a {
+  text-decoration:overline;
+  
+}
+
+.cardo {
+  border-radius: 4px;
+  border: 0.2px solid black;
+  margin: 5% 0 0 15%;
+}
+
+.bio {
+  justify-content: center;
+  display: grid;
+}
+
+.card-title {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.175);
 }

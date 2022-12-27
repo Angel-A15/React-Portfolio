@@ -7,7 +7,7 @@ function Header(props) {
     return (
         <header>
             <div className="name">
-                <h2>Angel Aguilar</h2>
+                <h2>Angel F. Aguilar</h2>
             </div>
             {/* <div>
                 <Navigation
