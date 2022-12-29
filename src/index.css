@@ -114,8 +114,8 @@ header {
   padding: 25px;
 }
 
-footer {
-  background: #f7c16f94;
+.footer {
+  background-color: var(--dark);
 }
 
 header a {
@@ -162,6 +162,10 @@ span[role="img"] {
 
 form {
   width: 40%;
+  background-color: rgb(230 245 195);
+  padding: 20px;
+  border-radius: 10px;
+  border: 5px solid tan
 }
 
 input {
@@ -307,7 +311,7 @@ textarea {
 }
 
 button {
-	background: var(--primary);
+	background:#545454;
 	border: 0;
 	border-radius: 5px;
 	color: #fff;
@@ -335,7 +339,6 @@ a {
 
 
 section {
-  background: var(--dark);
   width: 100%;
   display: flex;
   justify-content:space-around;
@@ -370,4 +373,17 @@ section {
 
 .card-title {
   border-bottom: 1px solid rgba(0, 0, 0, 0.175);
+}
+
+.email {
+  margin-left: 15px;
+  background-color: #95d995;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+.conTitle {
+  display: flex;
+  justify-content: center;
 }

@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 // import Resume from "./components/Resume";
-// import Navigation from "./components/Navigation";
+import Navigation from "./components/Navigation";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,42 +13,39 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // root component (wraps other components)
 function App() {
 
-  // const [categories] = useState([
-  //   { name: "About" },
-  //   { name: "Portfolio" },
-  //   {
-  //     name: "Contact",
-  //   },
-  //   {
-  //     name: "Resume",
-  //   },
-  // ]);
+  const [categories] = useState([
+    { name: "About" },
+    { name: "Portfolio" },
+    {
+      name: "Contact",
+    },
+    {
+      name: "Resume",
+    },
+  ]);
 
-  // const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
-  // const [contactSelected, setContactSelected] = useState(false);
+  const [contactSelected, setContactSelected] = useState(false);
 
 
   return (
     <div>
       <Header>
 
-        {/* <Navigation
+        <Navigation
           ategories={categories}
           setCurrentCategory={setCurrentCategory}
           currentCategory={currentCategory}
           contactSelected={contactSelected}
           setContactSelected={setContactSelected}
-        ></Navigation> */}
+        ></Navigation>
 
       </Header>
-      <Portfolio />
       <About></About>
-      <Footer>
-        
-        <Contact></Contact>
-
-      </Footer>
+      <Portfolio />
+      <Contact />
+      <Footer />
     </div>
   );
 }

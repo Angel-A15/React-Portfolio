@@ -3,7 +3,7 @@ import PersonalPic from '../../assets/images/profile.jpg';
 
 function About() {
     return(
-        <div className='bio'>
+        <div className='bio' class="mt-5">
 
             <div className='bio'>
                 <img className="photo" src={PersonalPic} alt="latino with long black hair, glasses, and with a moustache and goatee"/>
