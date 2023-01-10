@@ -4,14 +4,14 @@ import Portfolio from "./components/Portfolio";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
-// import Resume from "./components/Resume";
-import Navigation from "./components/Navigation";
+import Resume from "./components/Resume";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // root component (wraps other components)
 function App() {
+  const [page, setPage] = useState("About me");
 
   const [categories] = useState([
     { name: "About" },
@@ -24,41 +24,40 @@ function App() {
     },
   ]);
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
-  const [contactSelected, setContactSelected] = useState(false);
+  const currentPage = () => {
+    switch (page) {
+      case "Portfolio":
+        return <Portfolio />;
+      case "Contact":
+        return <Contact />;
+      case "Resume":
+        return <Resume />;
+      default:
+        return <About />;
+    }
+  };
 
 
   return (
     <div>
-      <Header>
+      <Header 
+      categories={categories}
+      page={page}
+      setPage={setPage}
+      ></Header>
+      <main>
+        <div>{currentPage(page)}</div>
+      </main>
+      <Footer>
+      
 
-        <Navigation
-          ategories={categories}
-          setCurrentCategory={setCurrentCategory}
-          currentCategory={currentCategory}
-          contactSelected={contactSelected}
-          setContactSelected={setContactSelected}
-        ></Navigation>
-
-      </Header>
-      <About></About>
-      <Portfolio />
-      <Contact />
-      <Footer />
+      
+      </Footer>
+      <div className="text-center small" id="seal">
+        &copy;Angel Aguilar2023.
+      </div>
     </div>
   );
 }
 
 export default App;
-
-
-        // {/* {!contactSelected ? (
-        //   <>
-        //     <Portfolio currentCategory={currentCategory}></Portfolio>
-        //     <About></About>
-
-        //   </>
-        // ) : (
-          
-        // )} */}

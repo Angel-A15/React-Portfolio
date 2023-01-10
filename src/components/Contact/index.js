@@ -19,7 +19,6 @@ function Contact() {
       console.log("Form", formState);
     }
   }
-  
 
   const handleChange = (e) => {
     if (e.target.name === 'email') {
@@ -39,23 +38,26 @@ function Contact() {
     if (!errorMessage) {
       setFormState({ ...formState, [e.target.name]: e.target.value });
       console.log('Handle Form', formState);
+
+      // take the data and do something with it 
+
     }
   };
 
   return (
     <section>
       
-      <form class="m-3" id="contact-form" onSubmit={handleSubmit}>
-        <h1 class="mb-4 conTitle" data-testid="h1tag">Contact me</h1>
-        <div class="mb-3">
-          <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+      <form className="m-3" onSubmit={handleSubmit}>
+        <h1 className="mb-4 conTitle" data-testid="h1tag">Contact me</h1>
+        <div className="mb-3">
+          <label htmlFor="name " >Name:</label>
+          <input type="text" name="name" className="col-12 " defaultValue={name} onBlur={handleChange} />
         </div>
-        <div class="mb-3">
+        <div className="mb-3">
           <label htmlFor="email">Email address:</label>
           <label className='email' type="email" name="email"  onBlur={handleChange}> {email}</label>
         </div>
-        <div class="mb-3">
+        <div className="mb-3">
           <label htmlFor="message" class="mb-1">Message:</label>
           <div>
             <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
@@ -67,7 +69,7 @@ function Contact() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="button" type="submit" class="rounded-3">Submit</button>
+        <button data-testid="button" type="submit" className="rounded-3 col-12">Submit</button>
       </form>
     </section>
   );

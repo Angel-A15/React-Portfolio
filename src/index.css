@@ -77,10 +77,6 @@ h2 {
   font-family: initial;
 }
 
-.name {
-  font-size: 300px;
-}
-
 h3 {
   font-size: 1.75rem;
   padding: 20px 60px ;
@@ -106,21 +102,22 @@ p {
   margin-bottom: 10px;
 }
 
-
-
-
 header {
   background: #f7c16f94;
   padding: 25px;
 }
 
 .footer {
-  background-color: var(--dark);
+  background-color: #ff990094;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content:space-around;
 }
 
 header a {
   color: var(--light);
   margin-left: 20px;
+  text-decoration: none;
 }
 
 button {
@@ -175,6 +172,7 @@ input {
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
+  
 }
 
 input:focus {
@@ -272,7 +270,7 @@ textarea {
 .header{
   color: #5f96e7;
   background-color: #ffc16494;
-  border-bottom:1px solid #111111;
+  border-bottom:1px solid tan;
   margin-bottom: 0px;
   padding: 0.5rem 1rem;
   margin-left: 0px;
@@ -350,19 +348,19 @@ section {
   margin: 5px;
 }
 
-#links p a:hover {
+#links a:hover {
   text-decoration:none;
   
 }
 
-#links p a {
+#links a {
   text-decoration:overline;
   
 }
 
 .cardo {
   border-radius: 4px;
-  border: 0.2px solid black;
+  border: 0.2px solid tan;
   margin: 5% 0 0 15%;
 }
 
@@ -386,4 +384,9 @@ section {
 .conTitle {
   display: flex;
   justify-content: center;
+}
+
+#seal {
+  margin-bottom:10px;
+
 }
