@@ -13,4 +13,4 @@ The technologies used:
 
 
 ## Deployed URL
-https://angel-a15.github.io/React-Portfolio
+https://angel-a15.github.io/React-Portfolio/
