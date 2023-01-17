@@ -50,7 +50,7 @@ export const Contact = () => {
     <form ref={form} onSubmit={sendEmail}>
 
       <div className="mb-3">
-        <label>Name</label>
+        <label>Name:</label>
         <input type="text" name="name" className="col-12 " defaultValue={name} onBlur={handleChange} />
       </div>
       
@@ -61,7 +61,7 @@ export const Contact = () => {
       </div>
 
       <div className="mb-3">
-        <label className='mb-1'>Message</label>
+        <label className='mb-1'>Message:</label>
         <div>
           <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
         </div>
