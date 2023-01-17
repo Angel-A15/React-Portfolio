@@ -3,9 +3,9 @@ import PersonalPic from '../../assets/images/profile.jpg';
 
 function About() {
     return(
-        <div className='bio' class="mt-5">
+        <div id="bioSec">
 
-            <div className='bio'>
+            <div id='photoSec'>
                 <img className="photo" src={PersonalPic} alt="latino with long black hair, glasses, and with a moustache and goatee"/>
             </div>
             
@@ -15,7 +15,7 @@ function About() {
                     About Me
                 </h1>
 
-                <h3 className='card-body mt-4 mb-3'>
+                <h3 className='card-body text-dark mt-3'>
                     <p> Hello, my name is Angel Aguilar and I'm a full stack web developer from central Texas.
                         I've always had an admiration for computer programming and having friends who were already
                         in the field increased my curiosity for the field. So I have them to partially thank 

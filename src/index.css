@@ -16,7 +16,6 @@ code {
 
 main {
 	margin: 0 auto;
-	max-width: 90%;
 }
 :root {
   --primary: #dc2626;
@@ -48,10 +47,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--dark);
-  color: var(--light);
   font-family: monospace;
-
 }
 
 h1,
@@ -111,7 +107,6 @@ header {
   background-color: #ff990094;
   display: flex;
   justify-content:space-around;
-  margin-top:  10%;
 }
 
 header a {
@@ -151,6 +146,9 @@ img {
 .photo {
   height: 500px;
   border: 2px solid tan;
+  background-color: white;
+  justify-content: center;
+  display: flex;
 }
 
 span[role="img"] {
@@ -163,12 +161,6 @@ form {
   padding: 20px;
   border-radius: 10px;
   border: 5px solid tan
-}
-
-#form {
-  position: relative;
-  left: 30%;
-  margin-top: 10%;
 }
 
 input {
@@ -280,6 +272,8 @@ textarea {
   margin-bottom: 0px;
   padding: 0.5rem 1rem;
   margin-left: 0px;
+  margin-top: 0px;
+
 }
 .img-thumbnail {
   width: auto;
@@ -328,7 +322,6 @@ button {
 
 a {
 	border-radius: 5px;
-	color: #F3A847;
 	font-weight: 600;
 	padding: 2px 4px;
 	margin-left: -2px;
@@ -353,6 +346,10 @@ section {
   margin: 5px;
 }
 
+#links {
+  margin-top: 0;
+}
+
 #links a:hover {
   text-decoration:none;
   
@@ -365,13 +362,14 @@ section {
 
 .cardo {
   border-radius: 4px;
-  border: 0.2px solid tan;
+  border: 0.9px solid tan;
   margin: 5% 0 0 15%;
 }
 
 .bio {
   justify-content: center;
   display: grid;
+  background-color: white;
 }
 
 .card-title {
@@ -393,11 +391,16 @@ section {
 
 #seal {
   margin-bottom:10px;
-
+  font-size: small;
+  font-weight: 0;
 }
 
 #send {
   background-color: #a0522db0;
+}
+
+#send:hover {
+  background-color: #df855cb0;
 }
 
 #resume {
@@ -408,4 +411,20 @@ section {
   margin-top: 100px;
   margin-left: 290px;
   position: relative;
+}
+
+#bioSec {
+  padding: 100px;
+  /* background-color: #95d9952b; */
+}
+
+#photoSec {
+  justify-content: center;
+  display: flex;
+}
+
+#contactSec {
+  display: flex;
+  justify-content: center;
+  padding: 143px;
 }

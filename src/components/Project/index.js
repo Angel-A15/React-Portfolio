@@ -5,11 +5,11 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 const Projects = ({ singleProject }) => {
   return (
 
-
     <Card
       style={{
         width: "30rem",
-        margin: "60px 50px 20px 10px", backgroundColor: "#EAF4D3" 
+        margin: "65px 50px 30px 50px", 
+        backgroundColor: "#EAF4D3" 
       }}
       key={singleProject.title} className="col-3"
     >

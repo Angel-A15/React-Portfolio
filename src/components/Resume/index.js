@@ -20,8 +20,11 @@ import { Col, Row } from 'react-bootstrap';
 function Resume() {
     return (
         
-            <div className="center">
-				<h1 className="page-header mt-5">My Resume</h1>
+            <div 
+			style={{
+				padding:"62px",
+			}}>
+				<h1 className="page-header">My Resume</h1>
 				<a  href={myResume} download>
 					<h4 id="resume" >Download <FaCloudDownloadAlt /></h4>
 				</a>

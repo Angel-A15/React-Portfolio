@@ -53,7 +53,7 @@ function App() {
 
       
       </Footer>
-      <div className="text-center small mt-4" id="seal">
+      <div className="text-center mt-4" id="seal">
         &copy;Angel Aguilar2023.
       </div>
     </div>

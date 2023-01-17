@@ -49,7 +49,8 @@ export const Contact = () => {
   };
 
   return (
-    <form ref={form} className="" id="form" onSubmit={sendEmail}>
+    <div id="contactSec">
+    <form ref={form}>
 
       <div className="mb-3">
         <label>Name</label>
@@ -78,6 +79,7 @@ export const Contact = () => {
       <input type="submit" className="col-12 rounded-2" id="send" value="Send" />
 
     </form>
+    </div>
   );
 };
 
