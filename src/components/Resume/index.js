@@ -22,7 +22,7 @@ function Resume() {
         
             <div 
 			style={{
-				padding:"62px",
+				padding:"80px",
 			}}>
 				<h1 className="page-header">My Resume</h1>
 				<a  href={myResume} download>

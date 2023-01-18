@@ -15,7 +15,7 @@ function About() {
                     About Me
                 </h1>
 
-                <h3 className='card-body text-dark mt-3'>
+                <h3 className='card-body text-dark mt-3' id='story'>
                     <p> 
                         Hello, my name is Angel Aguilar and I'm a full stack web developer from central Texas.
                         I've always had an admiration for computer programming and having friends who were already
