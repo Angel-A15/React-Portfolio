@@ -1,16 +1,21 @@
 {
-  "homepage": "http://Angel-A15.github.io/React-Portfolio",
+  "homepage": "https://angel-a15.github.io/React-Portfolio/",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^11.1.0",
+    "@emailjs/browser": "^3.10.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.0.2",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-icons": "^4.2.0",
+    "react-scripts": "4.0.3",
+    "reactstrap": "^8.9.0",
+    "web-vitals": "^1.0.1"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -19,7 +24,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-
   },
   "eslintConfig": {
     "extends": [
@@ -40,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "build": "^0.1.4",
     "gh-pages": "^4.0.0"
   }
 }

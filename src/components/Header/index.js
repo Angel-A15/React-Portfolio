@@ -1,9 +1,22 @@
 import React from 'react';
+import Navigation from "../Navigation";
 
-function Header() {
+function Header(props) {
+    // const { currentTab, setCurrentTab } = props;
+
     return (
-
-    );
+        <header>
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
+          <h2>
+            <a href="/https://angel-a15.github.io/React-Portfolio/" style={{ fontSize: "40px", margin: "20px" }}>
+              Angel F. Aguilar Guerrero
+            </a>
+          </h2>
+          <Navigation categories= {props.categories}
+                page={props.page}
+                setPage={props.setPage}/>
+        </header>
+      );
 }
 
 export default Header;

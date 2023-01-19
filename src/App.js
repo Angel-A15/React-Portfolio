@@ -1,38 +1,62 @@
-import React, { useState } from 'react';
-import './App.css';
-import Footer from './components/Footer';
-import Nav from './components/Nav';
-import About from './components/About Me';
+import React, { useState } from "react";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Contact from "./components/Contact";
+import Resume from "./components/Resume";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
+// root component (wraps other components)
 function App() {
+  const [page, setPage] = useState("About me");
+
   const [categories] = useState([
+    { name: "About" },
+    { name: "Portfolio" },
     {
-      name: 'Projects',
-      description: 'Photos of constructed applications and link to deployed application',
+      name: "Contact",
     },
-    { name: 'Resume', description: 'a link to a downloadable resume and a list of the developers proficiencies' },
+    {
+      name: "Resume",
+    },
   ]);
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const currentPage = () => {
+    switch (page) {
+      case "Portfolio":
+        return <Portfolio />;
+      case "Contact":
+        return <Contact />;
+      case "Resume":
+        return <Resume />;
+      default:
+        return <About />;
+    }
+  };
 
-  const [contactSelected, setContactSelected] = useState(false);
 
   return (
     <div>
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
+      <Header 
+      categories={categories}
+      page={page}
+      setPage={setPage}
+      ></Header>
       <main>
-        
+        <div>{currentPage(page)}</div>
       </main>
-      <About></About>
-      <Footer></Footer>
-    </div>
+      <Footer>
+      
 
+      
+      </Footer>
+      <div className="text-center mt-4" id="seal">
+        &copy;Angel Aguilar2023.
+      </div>
+    </div>
   );
 }
 
