@@ -93,7 +93,7 @@ h6 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -409,12 +409,13 @@ section {
 .bio {
   border: 2px solid tan;
   border-radius:5px;
-  margin: 0 340px;
+  margin: 0px 280px;
+  height: 780px;
+
 }
 
 #bioSec {
   padding: 100px;
-  /* background-color: #95d9952b; */
 }
 
 #photoSec {
