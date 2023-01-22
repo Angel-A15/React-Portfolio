@@ -8,7 +8,7 @@ function Header(props) {
         <header>
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
           <h2>
-            <a href="/https://angel-a15.github.io/React-Portfolio/" style={{ fontSize: "40px" }} id="name">
+            <a href="/https://angel-a15.github.io/React-Portfolio/" id="name">
               Angel F. Aguilar Guerrero
             </a>
           </h2>

@@ -410,8 +410,6 @@ section {
   border: 2px solid tan;
   border-radius:5px;
   margin: 0px 280px;
-  height: 780px;
-
 }
 
 #bioSec {
@@ -446,5 +444,5 @@ section {
 }
 
 #name {
-  margin: 20px;
+  font-size: 3.6vw;
 }
