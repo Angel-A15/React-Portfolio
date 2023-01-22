@@ -1,16 +1,148 @@
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1159px) {
 
-   
+    .bio {
+        margin: 0;
+   }
+
+   #bioSec {
+    padding: 50px;
+    }
+
+   #story {
+        line-height: revert;
+        text-indent: 30px;
+        display: inherit;
+        margin: 20px;
+    }
+
+    #contactSec {
+        padding: 170px 0px;
+    }
+
+    form {
+        width: 60%;
+    }
+
+    #profs {
+        margin-top: 80px;
+        padding-top: 50px;
+        margin-left: 0px;
+    }
     
 }
 
 /* media query for tablets and smaller*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 668px) {
+
+    .bio {
+        margin: 0;
+   }
+
+   #bioSec {
+    padding: 50px;
+    }
+
+   #story {
+        line-height: revert;
+        text-indent: 30px;
+        display: inherit;
+        margin: 20px;
+    }
+
+    .flex-row {
+        display: flex;
+        justify-content: center;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    header a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navAs {
+        justify-content: center;
+    }
+
+    #name {
+        margin: 0px 1px 5px 1px;
+        font-variant: small-caps;
+        padding: 0px 4px;
+    }
+
+    #contactSec {
+        padding: 170px 0px;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    #profs {
+        margin-top: 80px;
+        padding-top: 50px;
+        margin-left: 0px;
+    }
 
 }
    
 /* media query for mobile phones and smaller */
 @media screen and (max-width: 575px) {
    
+    .bio {
+        margin: 0;
+   }
+
+   #bioSec {
+    padding: 50px;
+    }
+
+   #story {
+        line-height: revert;
+        text-indent: 30px;
+        display: inherit;
+        margin: 20px;
+    }
+
+    .flex-row {
+        display: flex;
+        justify-content: center;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    header a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navAs {
+        justify-content: start;
+    }
+
+    #name {
+        margin: 0px 1px 5px 1px;
+        font-variant: small-caps;
+        padding: 0px 4px;
+    }
+
+    #contactSec {
+        padding: 170px 0px;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    #profs {
+        margin-top: 80px;
+        padding-top: 50px;
+        margin-left: 0px;
+    }
  
 }
