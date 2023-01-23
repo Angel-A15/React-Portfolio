@@ -7,10 +7,8 @@ function Header(props) {
     return (
         <header>
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
-          <h2>
-            <a href="/" id="name">
+          <h2 id="name">
               Angel F. Aguilar Guerrero
-            </a>
           </h2>
           <Navigation categories= {props.categories}
                 page={props.page}
