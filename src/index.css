@@ -368,6 +368,21 @@ section {
   border-bottom: 1px solid rgba(0, 0, 0, 0.175);
 }
 
+#projRow {
+  flex-wrap: inherit;
+  display: flex;
+}
+
+.container {
+  padding: 1px;
+}
+
+#conMarg {
+  margin-left: 15%;
+  justify-content: center;
+  display: flex;
+}
+
 .email {
   margin-left: 15px;
   background-color: #95d995;

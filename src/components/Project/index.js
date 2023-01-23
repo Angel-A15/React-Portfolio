@@ -8,10 +8,10 @@ const Projects = ({ singleProject }) => {
     <Card
       style={{
         width: "30rem",
-        margin: "65px 50px 30px 50px", 
+        margin: "65px 50px 30px 0px", 
         backgroundColor: "#EAF4D3" 
       }}
-      key={singleProject.title} className="col-3"
+      key={singleProject.title} className="col-3" id="project"
     >
     
       <Card.Title style={{ margin: "15px", fontSize: "27px", color: "#094067"}}>

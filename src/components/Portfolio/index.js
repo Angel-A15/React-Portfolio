@@ -35,8 +35,8 @@ const Portfolio = (singleProject) => {
   ];
 
   return (
-    <div key={singleProject.title} className="container">
-      <div className="flex-row">
+    <div key={singleProject.title} className="container" id="conMarg">
+      <div className="row " id="projRow">
           {projectList.map((singleProject) => (
             <Projects singleProject={singleProject}/>
         ))}
