@@ -93,7 +93,7 @@ h6 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -368,6 +368,21 @@ section {
   border-bottom: 1px solid rgba(0, 0, 0, 0.175);
 }
 
+#projRow {
+  flex-wrap: inherit;
+  display: flex;
+}
+
+.container {
+  padding: 1px;
+}
+
+#conMarg {
+  margin-left: 15%;
+  justify-content: center;
+  display: flex;
+}
+
 .email {
   margin-left: 15px;
   background-color: #95d995;
@@ -397,6 +412,7 @@ section {
 
 #resume {
   margin-left: 70px;
+  width: 153px;
 }
 
 #profs {
@@ -408,12 +424,11 @@ section {
 .bio {
   border: 2px solid tan;
   border-radius:5px;
-  margin: 0 340px;
+  margin: 0px 280px;
 }
 
 #bioSec {
   padding: 100px;
-  /* background-color: #95d9952b; */
 }
 
 #photoSec {
@@ -434,10 +449,15 @@ section {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 
   'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
   'Helvetica Neue', sans-serif;
+  justify-content: end;
 }
 
 #story {
   line-height: revert;
   text-indent: 60px;
   display: block;
+}
+
+#name {
+  font-size: 3.6vw;
 }

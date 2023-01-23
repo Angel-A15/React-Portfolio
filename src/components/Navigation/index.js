@@ -4,7 +4,7 @@ function Navigation(props) {
     return (
         <header>
           <nav>
-            <ul className="flex-row navAs" style={{ justifyContent: "flex-end"}}>
+            <ul className="flex-row navAs">
               
               {props.categories.map((category) => {
                 

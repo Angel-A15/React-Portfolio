@@ -34,10 +34,10 @@ const Portfolio = (singleProject) => {
   ];
 
   return (
-    <div key={singleProject.title}>
-      <div className="flex-row">
-        {projectList.map((singleProject) => (
-          <Project singleProject={singleProject}/>
+    <div key={singleProject.title} className="container" id="conMarg">
+      <div className="row " id="projRow">
+          {projectList.map((singleProject) => (
+            <Projects singleProject={singleProject}/>
         ))}
       </div>
     </div>
