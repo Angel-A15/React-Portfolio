@@ -25,8 +25,8 @@ function Resume() {
 				padding:"80px",
 			}}>
 				<h1 className="page-header">My Resume</h1>
-				<a  href={myResume} download>
-					<h4 id="resume" >Download <FaCloudDownloadAlt /></h4>
+				<a  href={myResume} download id="resume">
+					Download <FaCloudDownloadAlt />
 				</a>
 			
 				<Row id="profs" >

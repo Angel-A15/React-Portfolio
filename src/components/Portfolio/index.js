@@ -37,7 +37,7 @@ const Portfolio = (singleProject) => {
     <div key={singleProject.title} className="container" id="conMarg">
       <div className="row " id="projRow">
           {projectList.map((singleProject) => (
-            <Projects singleProject={singleProject}/>
+            <Project singleProject={singleProject}/>
         ))}
       </div>
     </div>

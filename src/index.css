@@ -371,6 +371,12 @@ section {
 #projRow {
   flex-wrap: inherit;
   display: flex;
+  width: inherit;
+  margin: 80px 0px 70px 0;
+}
+
+#project {
+  margin: 0 0 30px 0;
 }
 
 .container {
@@ -378,7 +384,6 @@ section {
 }
 
 #conMarg {
-  margin-left: 15%;
   justify-content: center;
   display: flex;
 }
@@ -412,7 +417,7 @@ section {
 
 #resume {
   margin-left: 70px;
-  width: 153px;
+  font-size: x-large;
 }
 
 #profs {
