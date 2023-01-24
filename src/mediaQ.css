@@ -37,6 +37,14 @@
         justify-content: space-around;
     }
     
+    #name {
+        margin: 0px 1px 5px 1px;
+        font-variant: small-caps;
+        padding: 10px 4px;
+        font-size: 6.5vw;
+        justify-content: center;
+        display: flex;
+    }
 }
 
 /* media query for tablets and smaller*/
@@ -78,7 +86,10 @@
     #name {
         margin: 0px 1px 5px 1px;
         font-variant: small-caps;
-        padding: 0px 4px;
+        padding: 10px 4px;
+        font-size: 6.5vw;
+        justify-content: center;
+        display: flex;
     }
 
     #contactSec {
@@ -165,7 +176,9 @@
         margin: 0px 1px 5px 1px;
         font-variant: small-caps;
         padding: 10px 4px;
-        font-size: 5vw;
+        font-size: 6.5vw;
+        justify-content: center;
+        display: flex;
     }
 
     #contactSec {
