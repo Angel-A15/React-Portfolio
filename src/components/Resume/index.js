@@ -14,7 +14,7 @@ import {
 from "react-icons/fa";
 import { SiHeroku, SiGraphql, SiMysql, } from "react-icons/si";
 import { DiJqueryLogo, DiMongodb } from "react-icons/di";
-import myResume from '../../assets/images/Aguilar-Angel-Resume.pdf';
+import myResume from '../../assets/images/Coding-Resume.pdf';
 import { Col, Row } from 'react-bootstrap';
 
 function Resume() {
