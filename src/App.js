@@ -15,7 +15,7 @@ function App() {
 
   const [categories] = useState([
     { name: "About" },
-    { name: "Portfolio" },
+    { name: "Projects" },
     {
       name: "Contact",
     },

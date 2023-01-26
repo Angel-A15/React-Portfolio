@@ -2,7 +2,7 @@ import React from "react";
 import Project from "../Project";
 
 import project1 from "../../assets/images/project1.jpeg";
-import project2 from "../../assets/images/project2.png";
+import project2 from "../../assets/images/project2.jpeg";
 import project3 from "../../assets/images/project3.jpeg";
 
 const Portfolio = (singleProject) => {
@@ -20,7 +20,7 @@ const Portfolio = (singleProject) => {
       summary: "The application serves by providing users resources to reach out for help wether its abuse or pertaining to mental health.",
       image: project2,
       technologies: "Node.js, Handlebars, JavaScript, BootStrap.css, Express",
-      deployedLink: "https://alluda.herokuapp.com/",
+      deployedLink: "https://alluda1.herokuapp.com/",
       github: "https://github.com/PivotalSaint/alluda",
     },
     {
