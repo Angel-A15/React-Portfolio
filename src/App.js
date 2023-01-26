@@ -26,7 +26,7 @@ function App() {
 
   const currentPage = () => {
     switch (page) {
-      case "Portfolio":
+      case "Projects":
         return <Portfolio />;
       case "Contact":
         return <Contact />;
