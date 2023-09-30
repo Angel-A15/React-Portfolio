@@ -36,6 +36,9 @@ function Resume() {
 							<li>Git <FaGitAlt /></li>
 							<li>GitHub <FaGithub /></li>
 							<li>Heroku <SiHeroku /></li>
+							<li>Insomnia </li>
+							<li>IntelliJ Idea </li>
+							<li>AWS Primary Role</li>
 						</ol>
 						<br></br>
 					</Col>
@@ -44,6 +47,7 @@ function Resume() {
 						<ol>
 							<li>HTML5 <FaHtml5 /></li>
 							<li>CSS3 <FaCss3Alt /></li>
+							<li>Java</li>
 							<li>JavaScript <FaJsSquare /></li>
 							<li>jQuery <DiJqueryLogo /></li>
 							<li>Reactjs <FaReact /></li>
@@ -54,6 +58,7 @@ function Resume() {
 					<Col>
 						<h5>Back-End Proficiencies</h5>
 						<ol>
+							<li>AWS</li>
 							<li>Nodejs  <FaNode /></li>
 							<li>Expressjs <FaNpm /></li>
 							<li>MySQL <SiMysql /></li>
