@@ -4,6 +4,7 @@ import Project from "../Project";
 import project1 from "../../assets/images/project1.jpeg";
 import project2 from "../../assets/images/project2.jpeg";
 import project3 from "../../assets/images/project3.jpeg";
+import project4 from "../../assets/images/project4.jpeg";
 
 const Portfolio = (singleProject) => {
   const projectList = [
@@ -30,6 +31,14 @@ const Portfolio = (singleProject) => {
       technologies: "Javascript, HTML, Node.js, BootStrap.js",
       deployedLink: "https://angel-a15.github.io/Drie-Name-Generator/",
       github: "https://github.com/Angel-A15/Drie-Name-Generator",
+    },
+    {
+      title: "Python-Mech-Shop",
+      summary: "Inquired by a local automotive shop, this application will provide business with digital transactions, marketing, and accessibilty.",
+      image: project4,
+      technologies: "Python, Django, MDBootstrap(Bootstrap 4/5), JS, HTML, and CSS",
+      deployedLink: "https://angel-a15.github.io/Drie-Name-Generator/",
+      github: "https://github.com/Angel-A15/Python-Mech-Shop",
     }
   ];
 

@@ -38,7 +38,7 @@ function Resume() {
 							<li>Heroku <SiHeroku /></li>
 							<li>Insomnia </li>
 							<li>IntelliJ Idea </li>
-							<li>AWS Primary Role</li>
+							<li>AWS Primary Role/Iam User Role</li>
 						</ol>
 						<br></br>
 					</Col>
