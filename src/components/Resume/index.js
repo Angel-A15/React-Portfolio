@@ -52,6 +52,9 @@ function Resume() {
 							<li>jQuery <DiJqueryLogo /></li>
 							<li>Reactjs <FaReact /></li>
 							<li>Bootstrap <FaBootstrap /></li>
+							<li>MDBootstrap</li>
+							<li>Django</li>
+							
 						</ol>
 						<br></br>
 					</Col>
@@ -69,6 +72,7 @@ function Resume() {
 							<li>APIs</li>
 							<li>MVC</li>
 							<li>PWA</li>
+							<li>Python</li>
 						</ol>
 					</Col>
 				</Row>
