@@ -331,8 +331,12 @@ a {
 	margin-right: -2px;
 }
 
+.navActive{
+  color: #0d6efd;
 
-.navActive {
+}
+
+.navActive:hover {
   color: var(--secondary);
 }
 
