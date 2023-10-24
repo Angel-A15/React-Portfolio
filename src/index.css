@@ -103,11 +103,6 @@ header {
   padding: 25px;
 }
 
-.footer {
-  background-color: #ff990094;
-  display: flex;
-  justify-content:space-around;
-}
 
 header a {
   color: var(--light);
@@ -355,7 +350,7 @@ section {
 
 #links {
   margin-top: 0;
-}
+ }
 
 #links a:hover {
   text-decoration:none;
@@ -364,6 +359,7 @@ section {
 
 #links a {
   text-decoration:overline;
+  
   
 }
 
@@ -470,4 +466,19 @@ section {
 #name {
   font-size: 3.6vw;
   color: white;
+}
+.footer {
+  background-color: #ff990094;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#linkContainer {
+    width: 45%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
+    margin-bottom: -4%;
 }
