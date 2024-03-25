@@ -37,7 +37,7 @@ const Portfolio = (singleProject) => {
       summary: "Inquired by a local automotive shop, this application will provide business with digital transactions, marketing, and accessibilty.",
       image: project4,
       technologies: "Python, Django, MDBootstrap(Bootstrap 4/5), JS, HTML, and CSS",
-      deployedLink: "https://angel-a15.github.io/Drie-Name-Generator/",
+      deployedLink: "https://angel-a15.github.io/React-Portfolio/",
       github: "https://github.com/Angel-A15/Python-Mech-Shop",
     }
   ];
