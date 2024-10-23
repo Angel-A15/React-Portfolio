@@ -1,4 +1,24 @@
-@media screen and (max-width: 1399px) {
+@media screen and (max-width: 2399px) {
+
+    #textOne {
+        font-size: 37px;
+    }
+
+    #textTwo {
+        font-size: 25px;
+    }
+
+    #textThree {
+        font-size: 27px;
+    }
+
+    #textFour {
+        font-size:  35px;
+    }
+
+    #textFive {
+        font-size: 39px;
+    }
 
     .bio {
         margin: 40px;
@@ -30,20 +50,32 @@
     }
 
     #conMarg {
+        display: flex;
+        justify-content: space-around;
         flex-flow: wrap;
     }
 
     #projRow {
         justify-content: space-around;
+        display:flex;
+        margin: 80px 0 70px;
     }
     
     #name {
         margin: 0px 1px 5px 1px;
         font-variant: small-caps;
         padding: 10px 4px;
-        font-size: 6.5vw;
+        font-size: 27px;
         justify-content: center;
         display: flex;
+    }
+
+    #project {
+        margin: 37px 20px 30px 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex: auto
     }
 }
 

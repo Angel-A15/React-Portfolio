@@ -13,10 +13,10 @@ const Projects = ({ singleProject }) => {
       key={singleProject.title} className="col-3" id="project"
     >
     
-      <Card.Title style={{ margin: "15px", fontSize: "27px", color: "#094067"}}>
+      <Card.Title id="textOne" style={{ margin: "15px", fontSize: "27px", color: "#094067"}}>
         {singleProject.title}
       </Card.Title>
-      <Card.Text className="mb-2 text-muted" style={{ fontSize: "15px", margin: "20px 0px 20px 10px" }}>{singleProject.summary}</Card.Text>
+      <Card.Text className="mb-2 text-muted" id="textTwo" style={{ fontSize: "15px", margin: "20px 0px 20px 10px" }}>{singleProject.summary}</Card.Text>
       <Card.Img
         variant="top"
         src={singleProject.image}
@@ -24,9 +24,9 @@ const Projects = ({ singleProject }) => {
         style={{ position: "relative" }}
       />
       <Card.Body style={{ backgroundColor: "#EAF4D3"}}>
-        <Card.Text style={{ fontSize: "17px" }} className="text-muted">
+        <Card.Text id="textThird" style={{ fontSize: "17px" }} className="text-muted">
           {"Built with: "}
-          <Card.Text style={{ fontSize: "15px" }} className="text-muted">{singleProject.technologies}</Card.Text>
+          <Card.Text id="textTwo" style={{ fontSize: "15px" }} className="text-muted" >{singleProject.technologies}</Card.Text>
         </Card.Text>
       </Card.Body> 
       <Card.Footer
@@ -36,7 +36,7 @@ const Projects = ({ singleProject }) => {
         }}
       >
         <a href={singleProject.github} target="_blank" rel="noreferrer" className="card-text" id="logo">
-          <FaGithub style={{ fontSize: "30px" }}/>
+          <FaGithub id="textFour" style={{ fontSize: "30px" }}/>
         </a>
         <a
           href={singleProject.deployedLink}
@@ -44,7 +44,7 @@ const Projects = ({ singleProject }) => {
           className="card-text"
           id="logo"
         >
-          <FaExternalLinkAlt style={{ fontSize: "25px" }}/>
+          <FaExternalLinkAlt id="textFive" style={{ fontSize: "25px" }}/>
         </a>
       </Card.Footer>
     
