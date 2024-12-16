@@ -13,7 +13,7 @@ const Portfolio = (singleProject) => {
       summary: "The application is a social network for individuals who have an interest in health and fitness can share their thoughts, make friends, and communicate.",
       image: project3,
       technologies: "Node.js, JavaScript, GraphQl, React, Mern, Bootstrap.css, Express, nodemon, mongoose",
-      deployedLink: "https://pacific-retreat-64211.herokuapp.com/",
+      deployedLink: "https://liftosphere1.herokuapp.com/",
       github: "https://github.com/MarkAnthony9014/fitness-project-3",
     },
     {
