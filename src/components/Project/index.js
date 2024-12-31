@@ -35,12 +35,19 @@ const Projects = ({ singleProject }) => {
           padding: "5px 20px 5px 20px",
         }}
       >
-        <a href={singleProject.github} target="_blank" rel="noreferrer" className="card-text" id="logo">
+        <a 
+          href={singleProject.github} 
+          rel="noopener noreferrer"
+          target="_blank"
+          className="card-text"
+          id="logo">
           <FaGithub id="textFour" style={{ fontSize: "30px" }}/>
         </a>
         <a
+          
           href={singleProject.deployedLink}
-          target="_blank" rel="noreferrer"
+          target="_blank" 
+          rel="noopener noreferrer"
           className="card-text"
           id="logo"
         >
